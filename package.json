@@ -1,0 +1,43 @@
+{
+  "name": "apa-api-server",
+  "version": "1.0.0",
+  "description": "Proxy server implementation on top of apa-api module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec --recursive tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sekko27/node-apa-api-server"
+  },
+  "keywords": [
+    "apa-api",
+    "amazon",
+    "advertising",
+    "proxy"
+  ],
+  "author": "Sekko27",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sekko27/node-apa-api-server/issues"
+  },
+  "homepage": "https://github.com/sekko27/node-apa-api-server",
+  "dependencies": {
+    "apa-api": "0.0.5",
+    "body-parser": "^1.9.2",
+    "express": "^4.10.2",
+    "express-swagger": "0.0.2",
+    "express-winston": "^0.2.8",
+    "lodash": "^2.4.1",
+    "q": "^1.1.1",
+    "winston": "^0.8.3",
+    "wire": "^0.10.9",
+    "wire-context-helper": "^0.1.25"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-as-promised": "^4.1.1",
+    "mocha": "^2.0.1",
+    "supertest": "^0.15.0"
+  }
+}

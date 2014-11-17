@@ -1,0 +1,8 @@
+.idea
+node_modules
+lib
+tests
+tests-lib
+build
+**js
+**map
